@@ -23,9 +23,14 @@ COLAB LINK : https://colab.research.google.com/drive/1jGfin_NBlQiKOnlEZPptPmkB8y
 
 1.TRAINING AND TESTING OF MODEL
 A Brief about the steps followed : for training the model:
-Import Libraries: Import essential Python libraries like pandas, numpy, scikit-learn, xgboost, and streamlit.
-Data Loading: Load the calories.csv and exercise.csv files using pandas to get both the target (calories burned) and feature (exercise details) data.
-Data Preprocessing: Merge Data: Merge the exercise and calories datasets based on the session or user ID for a complete dataset. Standardization: Use StandardScaler to scale features such as heart rate, age, weight, height, exercise duration, and body temperature, which improves model accuracy.
+Import Libraries: 
+Import essential Python libraries like pandas, numpy, scikit-learn, xgboost, and streamlit.
+
+Data Loading: 
+Load the calories.csv and exercise.csv files using pandas to get both the target (calories burned) and feature (exercise details) data.
+
+Data Preprocessing: 
+Merge Data: Merge the exercise and calories datasets based on the session or user ID for a complete dataset. Standardization: Use StandardScaler to scale features such as heart rate, age, weight, height, exercise duration, and body temperature, which improves model accuracy.
 Model Selection and Training: Model Choice: Choose the XGBRegressor model, a gradient boosting model optimized for regression tasks. Train Model: Train the XGBRegressor on the preprocessed data, using calorie burn as the target variable.
 Prediction: Collect user inputs for personal details and exercise metrics. Use the trained model to predict calories burned based on these inputs.
 
@@ -37,6 +42,30 @@ Now to run streamlit in a browser run the following command in terminal:
 ‘ Streamlit run cpm.py ‘ (#streamlit run filename.py).
 
 And Voila !,Your project is deployed successfully.
+
+
+
+for additional uniqueness to the model:
+Calorie App:CalorEase
+
+This is a simple and user-friendly Calorie Tracking Application that helps users manage their daily calorie intake. The application enables users to input meals, track calorie consumption, and maintain a healthy lifestyle. It is ideal for individuals seeking to improve their eating habits and monitor their dietary goals.
+
+Features
+
+Add Meals: Input meal names and their respective calorie values.
+Daily Calorie Summary: View a summary of your total calorie intake for the day.
+Calorie Goal Management: Set and monitor daily calorie goals.
+User-Friendly Interface: Easy-to-navigate interface suitable for all users.
+
+Tech Stack
+The project is built using the following technologies:
+
+Frontend: [HTML/CSS/JavaScript]
+Backend: [Django]
+
+API: external APIs to manage calorie data.
+API available on API-Ninjas by the sample name : Nutrition 
+API Link : https://api.api-ninjas.com/v1/nutrition
 
 
 
