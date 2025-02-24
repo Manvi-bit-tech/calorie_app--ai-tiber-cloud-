@@ -1,0 +1,31 @@
+# .gitignore
+# Ignore the virtual environment directory
+.venv/
+
+# Ignore the Google Cloud Service Account Credentials file
+sourcegenaiapi.json
+
+# Ignore other common files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.mo
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.old
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
